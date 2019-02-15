@@ -26,6 +26,7 @@ SECRET_KEY = '^ur-c1@5b7d1rr3^j(7f&rxbblc!0*r=!zbzej(i@o6fns8u#7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# Environment variables
 ALLOWED_HOSTS = [os.environ.get("C9_HOSTNAME"),
                  os.environ.get("HOSTNAME")]
 
