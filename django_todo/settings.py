@@ -29,8 +29,6 @@ DEBUG = True
 ALLOWED_HOSTS = [os.environ.get("C9_HOSTNAME"),
                  os.environ.get("HOSTNAME")]
 
-# "django-todo-alexander4k.c9users.io",
-#                  "simple-django-todo-a4k.herokuapp.com",
 # Application definition
 
 INSTALLED_APPS = [
